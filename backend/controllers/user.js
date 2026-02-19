@@ -2,6 +2,14 @@ import { User } from "../models/userModel.js";
 import bcryptjs from "bcryptjs";
 import jwt from "jsonwebtoken";
 
+const isProduction = process.env.NODE_ENV === "production";
+const cookieOptions = {
+    httpOnly: true,
+    sameSite: isProduction ? "none" : "lax",
+    secure: isProduction,
+};
+const jwtSecret = process.env.JWT_SECRET || "dfbvdkjzfnvkjzdnfvkzdnjf";
+
 export const Login = async(req,res)=>{
     try {
         const {email,password} = req.body;
@@ -29,9 +37,9 @@ export const Login = async(req,res)=>{
        const tokenData = {
         id:user._id
        }
-        const token = await jwt.sign(tokenData, "dfbvdkjzfnvkjzdnfvkzdnjf",{expiresIn:"1h"});
+        const token = await jwt.sign(tokenData, jwtSecret,{expiresIn:"1h"});
 
-        return res.status(200).cookie("token", token, { httpOnly: true }).json({
+        return res.status(200).cookie("token", token, cookieOptions).json({
             message:`Welcome back ${user.fullName}`,
             user,
             success:true
@@ -43,7 +51,7 @@ export const Login = async(req,res)=>{
 }
 
 export const Logout = async (req,res) => {
-    return res.status(200).cookie("token", "", {expiresIn:new Date(Date.now()), httpOnly:true}).json({
+    return res.status(200).cookie("token", "", {...cookieOptions, expires:new Date(Date.now())}).json({
         message:"User logged out successfully.",
         success:true,
     });

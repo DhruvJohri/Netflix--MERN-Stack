@@ -15,8 +15,19 @@ const app = express();
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
+
+const allowedOrigins = (process.env.CORS_ORIGIN || "http://localhost:3000")
+    .split(",")
+    .map((origin) => origin.trim())
+    .filter(Boolean);
+
 const corsOptions = {
-    origin:'http://localhost:3000',
+    origin:(origin, callback) => {
+        if(!origin || allowedOrigins.includes(origin)){
+            return callback(null, true);
+        }
+        return callback(new Error("Not allowed by CORS"));
+    },
     credentials:true
 }
 app.use(cors(corsOptions));
@@ -24,6 +35,8 @@ app.use(cors(corsOptions));
 // api
 app.use("/api/v1/user", userRoute);
 
-app.listen(process.env.PORT,() => {
-    console.log(`Server listen at port ${process.env.PORT}`);
+const port = process.env.PORT || 8080;
+
+app.listen(port,() => {
+    console.log(`Server listen at port ${port}`);
 });

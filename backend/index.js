@@ -7,11 +7,8 @@ import cookieParser from "cookie-parser";
 import userRoute from "./routes/userRoute.js";
 import cors from "cors";
 
+dotenv.config();
 databaseConnection();
-
-dotenv.config({
-    path:".env"
-})
 
 const app = express();
 //middlewares 

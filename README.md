@@ -14,8 +14,7 @@ https://netflix-mern-stack-git-main-dhruv-johris-projects.vercel.app/
 Backend (Render)  
 https://netflix-mern-stack-ew3s.onrender.com
 
-API Base Used by Frontend  
-https://netflix-mern-stack-ew3s.onrender.com/api/v1/user
+
 
 ---
 

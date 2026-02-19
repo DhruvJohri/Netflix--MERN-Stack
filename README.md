@@ -131,8 +131,6 @@ Stateless backend design ensures horizontal scalability.
 ### CORS Protection
 Backend validates exact allowed origin using:
 
-- CORS_ORIGIN=https://your-frontend-domain.com
-
 No wildcard origins allowed.
 
 ---
@@ -221,6 +219,7 @@ netflix2.0/
   - REACT_APP_API_END_POINT
   - REACT_APP_TMDB_BEARER_TOKEN
 
+
 ## Render (Backend)
 
 - Root Directory: backend
@@ -247,6 +246,7 @@ Cannot GET / on Render
 
 ---
 
+
 # 📈 Performance & Scalability Design
 
 - Stateless backend enables horizontal scaling
@@ -258,6 +258,7 @@ Cannot GET / on Render
 
 ---
 
+
 # 🛡 Security Best Practices
 
 - No JWT in localStorage
@@ -268,6 +269,7 @@ Cannot GET / on Render
 - Production secure cookie flags
 
 ---
+
 
 # 🎯 System Design Concepts Demonstrated
 
@@ -282,6 +284,7 @@ Cannot GET / on Render
 
 ---
 
+
 # 🚀 Future Improvements
 
 - Role-based authorization
@@ -294,16 +297,12 @@ Cannot GET / on Render
 
 ---
 
-# 💡 Resume Impact Statement
 
-Built a production-grade full-stack streaming platform with secure cross-domain authentication, scalable Redux architecture, distributed deployment across Vercel and Render, MongoDB Atlas persistence, and TMDB-powered dynamic content.
-
----
 
 # 👨‍💻 Author
 
 Dhruv Johri  
-Full Stack Developer | MERN Stack | Authentication Systems | Distributed Architecture
+Full Stack Developer | MERN Stack 
 
 ---
 

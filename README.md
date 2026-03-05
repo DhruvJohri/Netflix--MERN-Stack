@@ -13,7 +13,7 @@
 
 <br/>
 
-![Stars](https://img.shields.io/github/stars/dhruv-johri/netflix-mern-stack?style=social)
+![Stars](https://img.shields.io/github/stars/dhruv-johri/Netflix-Mern-Stack?style=social)
 ![Forks](https://img.shields.io/github/forks/dhruv-johri/netflix-mern-stack?style=social)
 ![Watchers](https://img.shields.io/github/watchers/dhruv-johri/netflix-mern-stack?style=social)
 

@@ -13,17 +13,17 @@
 
 <br/>
 
-![Stars](https://img.shields.io/github/stars/dhruv-johri/Netflix-Mern-Stack?style=social)
-![Forks](https://img.shields.io/github/forks/dhruv-johri/netflix-mern-stack?style=social)
-![Watchers](https://img.shields.io/github/watchers/dhruv-johri/netflix-mern-stack?style=social)
+![Stars](https://img.shields.io/github/stars/DhruvJohri/Netflix--MERN-Stack?style=social)
+![Forks](https://img.shields.io/github/forks/DhruvJohri/Netflix--MERN-Stack?style=social)
+![Watchers](https://img.shields.io/github/watchers/DhruvJohri/Netflix--MERN-Stack?style=social)
 
 <br/>
 
-![Issues](https://img.shields.io/github/issues/dhruv-johri/netflix-mern-stack?color=E50914&style=flat-square)
-![Pull Requests](https://img.shields.io/github/issues-pr/dhruv-johri/netflix-mern-stack?color=blueviolet&style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/dhruv-johri/netflix-mern-stack?color=success&style=flat-square)
-![Repo Size](https://img.shields.io/github/repo-size/dhruv-johri/netflix-mern-stack?style=flat-square&color=blue)
-![License](https://img.shields.io/github/license/dhruv-johri/netflix-mern-stack?style=flat-square)
+![Issues](https://img.shields.io/github/issues/DhruvJohri/Netflix--MERN-Stack?color=E50914&style=flat-square)
+![Pull Requests](https://img.shields.io/github/issues-pr/DhruvJohri/Netflix--MERN-Stack?color=blueviolet&style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/DhruvJohri/Netflix--MERN-Stack?color=success&style=flat-square)
+![Repo Size](https://img.shields.io/github/repo-size/DhruvJohri/Netflix--MERN-Stack?style=flat-square&color=blue)
+![License](https://img.shields.io/github/license/DhruvJohri/Netflix--MERN-Stack?style=flat-square)
 ![Made with Love](https://img.shields.io/badge/made%20with-❤️-E50914?style=flat-square)
 
 <br/>
@@ -129,7 +129,7 @@ netflix/
 ### clone
 
 ```bash
-git clone https://github.com/dhruv-johri/netflix-mern-stack.git
+git clone https://github.com/DhruvJohri/Netflix--MERN-Stack.git
 cd netflix-mern-stack
 ```
 
@@ -240,17 +240,17 @@ git commit -m "feat: add your feature"
 git push origin feature/your-feature
 ```
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/dhruv-johri/netflix-mern-stack/pulls)
-[![Open Issues](https://img.shields.io/github/issues/dhruv-johri/netflix-mern-stack?style=flat-square&color=E50914)](https://github.com/dhruv-johri/netflix-mern-stack/issues)
-[![Contributors](https://img.shields.io/github/contributors/dhruv-johri/netflix-mern-stack?style=flat-square&color=orange)](https://github.com/dhruv-johri/netflix-mern-stack/graphs/contributors)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/DhruvJohri/Netflix--MERN-Stack/pulls)
+[![Open Issues](https://img.shields.io/github/issues/DhruvJohri/Netflix--MERN-Stack?style=flat-square&color=E50914)](https://github.com/DhruvJohri/Netflix--MERN-Stack/issues)
+[![Contributors](https://img.shields.io/github/contributors/DhruvJohri/Netflix--MERN-Stack?style=flat-square&color=orange)](https://github.com/DhruvJohri/Netflix--MERN-Stack/graphs/contributors)
 
 ---
 
 <div align="center">
 
-**built by [Dhruv Johri](https://github.com/dhruv-johri)**
+**built by [Dhruv Johri](https://github.com/DhruvJohri)**
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhruv-johri)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DhruvJohri)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhruv-johri)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://your-portfolio.com)
 
@@ -258,10 +258,10 @@ git push origin feature/your-feature
 
 if this helped — drop a ⭐ &nbsp;it's free and means everything
 
-[![Star History Chart](https://img.shields.io/badge/⭐_Star_this_repo-E50914?style=for-the-badge)](https://github.com/dhruv-johri/netflix-mern-stack/stargazers)
+[![Star History Chart](https://img.shields.io/badge/⭐_Star_this_repo-E50914?style=for-the-badge)](https://github.com/DhruvJohri/Netflix--MERN-Stack/stargazers)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=dhruv-johri&color=E50914&style=flat-square&label=profile+views)
+![Profile Views](https://komarev.com/ghpvc/?username=DhruvJohri&color=E50914&style=flat-square&label=profile+views)
 
 </div>
